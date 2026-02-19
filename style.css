@@ -1,5 +1,8 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
+html { scrollbar-width: none; }
+html::-webkit-scrollbar { display: none; }
+
 body {
   background: #111;
   color: #e0e0e0;
