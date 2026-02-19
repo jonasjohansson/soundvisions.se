@@ -34,11 +34,8 @@ header h1 {
   margin-bottom: 40px;
 }
 
-/* Intro columns */
+/* Intro */
 .intro {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 48px;
   margin-bottom: 60px;
 }
 
@@ -55,8 +52,6 @@ header h1 {
   line-height: 1.7;
 }
 
-.intro .en { color: #e09540; }
-.intro .en a { color: #e09540; text-decoration: underline; }
 .intro .sv a { color: #e0e0e0; text-decoration: underline; }
 
 .intro .result-link { font-size: 1.05rem; }
@@ -133,37 +128,6 @@ header h1 {
 
 .card-link:hover { color: #aaa; }
 
-/* FAQ */
-.faq {
-  padding: 40px 0;
-  border-top: 1px solid #333;
-}
-
-.faq h2 {
-  font-size: 2rem;
-  font-weight: 700;
-  margin-bottom: 32px;
-}
-
-.faq-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 32px 48px;
-  margin-bottom: 60px;
-}
-
-.faq-item h3 {
-  font-size: 1rem;
-  font-weight: 700;
-  margin-bottom: 8px;
-}
-
-.faq-item p {
-  font-size: 0.95rem;
-  color: #bbb;
-  line-height: 1.6;
-}
-
 /* Footer */
 footer {
   border-top: 1px solid #333;
@@ -184,8 +148,6 @@ footer a { text-decoration: underline; }
 
 /* Responsive */
 @media (max-width: 768px) {
-  .intro { grid-template-columns: 1fr; gap: 32px; }
-  .faq-grid { grid-template-columns: 1fr; }
   .gallery { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
   header h1 { font-size: 1.6rem; }
 }
